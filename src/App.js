@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './styles.css';
 
-const API_KEY = '3d9355d97e6561cb231a1b9316b40ec9';
+const API_KEY = process.env.REACT_APP_WEATHER_KEY;
 
 const WEATHER_ICONS = {
   Clear: '☀️',
